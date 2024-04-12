@@ -8,15 +8,12 @@ def page_1():
     st.title("Comprehension Check in Multiple Languages")
 
     # Define passages and questions in multiple languages
-    passage = '''The internet has revolutionized the way we communicate, work, and access information. 
-    It has its origins in the 1960s when the United States Department of Defense developed ARPANET, 
-    a precursor to the modern internet. ARPANET allowed multiple computers to communicate on a single network, 
-    laying the groundwork for what would become the internet. 
-    In the 1980s, the National Science Foundation created NSFNET, a network that connected universities and 
-    research institutions, further expanding the internet's reach. The development of the World Wide Web in the 
-    early 1990s by Tim Berners-Lee made it possible for users to access websites and navigate the internet easily. 
-    Today, the internet is an integral part of daily life, connecting billions of people around the world and 
-    enabling a vast array of online activities.
+    passage = '''Selvi went to a garden. She saw a yellow flower on the tomato plant. 
+    She went to pluck it. A bee came and said, “Please, leave it for me. It is my food” 
+    She saw a red tomato on the tomato plant. She went to pluck it. A parrot came and said, 
+    “Please, leave it for me. It is my food”. She saw a green leaf on the tomato plant. 
+    A grasshopper came and said, “Please don’t pluck the leaf. It is my food.” 
+    Watering the plant, Selvi said, “You provide food for all of us. Thank you very much”.
     '''
     
     # Language selection
@@ -25,67 +22,67 @@ def page_1():
 
     questions_answers = {
     "questions": [
-                {
-            "question": "What was ARPANET's primary purpose?",
-            "choices": [
-                "Military communication",
-                "Academic research",
-                "Commercial transactions",
-                "Entertainment"
-            ],
-            "answer": "Military communication"
-        },
-        {
-            "question": "Who developed the World Wide Web?",
-            "choices": [
-                "Bill Gates",
-                "Steve Jobs",
-                "Tim Berners-Lee",
-                "Mark Zuckerberg"
-            ],
-            "answer": "Tim Berners-Lee"
-        },
-        {
-            "question": "What is the internet's role in daily life today?",
-            "choices": [
-                "Connecting people globally",
-                "Storing personal files",
-                "Playing video games",
-                "All of the above"
-            ],
-            "answer": "Connecting people globally"
-        },
-        {
-            "question": "Which organization developed ARPANET?",
-            "choices": [
-                "IBM",
-                "Microsoft",
-                "Apple",
-                "United States Department of Defense"
-            ],
-            "answer": "United States Department of Defense"
-        },
-        {
-            "question": "What was the purpose of NSFNET?",
-            "choices": [
-                "Military communication",
-                "Academic research",
-                "Commercial transactions",
-                "Entertainment"
-            ],
-            "answer": "Academic research"
-        },
-        {
-            "question": "Which development made it easier for users to access websites?",
-            "choices": [
-                "ARPANET",
-                "NSFNET",
-                "Ethernet",
-                "World Wide Web"
-            ],
-            "answer": "World Wide Web"
-        }
-    ]
+            {
+                "question": "What did Selvi see on the tomato plant?",
+                "choices": [
+                    "Yellow flower",
+                    "Red tomato",
+                    "Green leaf",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "question": "Who asked Selvi to leave the yellow flower?",
+                "choices": [
+                    "Bee",
+                    "Parrot",
+                    "Grasshopper",
+                    "None of the above"
+                ],
+                "answer": "Bee"
+            },
+            {
+                "question": "What did Selvi say while watering the plant?",
+                "choices": [
+                    "Thank you",
+                    "You provide food for all of us",
+                    "Both A and B",
+                    "None of the above"
+                ],
+                "answer": "Both A and B"
+            },
+            {
+                "question": "What did the grasshopper ask Selvi?",
+                "choices": [
+                    "To leave the flower",
+                    "To leave the tomato",
+                    "To leave the leaf",
+                    "To water the plant"
+                ],
+                "answer": "To leave the leaf"
+            },
+            {
+                "question": "What did the bee say about the yellow flower?",
+                "choices": [
+                    "It is its food",
+                    "It is poisonous",
+                    "It is beautiful",
+                    "It is harmful"
+                ],
+                "answer": "It is its food"
+            },
+            {
+                "question": "What did Selvi pluck from the tomato plant?",
+                "choices": [
+                    "Flower",
+                    "Tomato",
+                    "Leaf",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            }
+        ]
 }
 
     # Display the passage
