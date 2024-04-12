@@ -13,7 +13,7 @@ translator = Translator()
 def main(): 
     pygame.mixer.quit()  # Initialize the mixer module.
     st.set_page_config(page_title='Multilingual Virtual Classroom Assistant', page_icon='📚')   # Set page title and icon
-    page = st.sidebar.radio('Explore', ['Home', 'Comprehension Check', 'Text Language Translator', 'Voice Language Translator'])
+    page = st.sidebar.radio('Explore', ['Home', 'Comprehension Check', 'Text Language Translator'])
 
     if page == 'Home':
         st.title('Welcome to the Multilingual Virtual Classroom Assistant!')
@@ -26,9 +26,6 @@ def main():
 
     elif page == 'Text Language Translator':
         translate_text.page_2()
-    
-    elif page == 'Voice Language Translator':
-       translate_voice.page_3()
 
 # Create a mapping between language names and language codes
 language_mapping = {name: code for code, name in LANGUAGES.items()}
